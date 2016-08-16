@@ -12,3 +12,12 @@ div.formContainer{
 	text-align: center;
 	background-color: slategray;
 }
+button{
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 20%;
+	text-shadow: 2px 2px 4px #000000;
+	-webkit-box-shadow: 2px 2px 2px 0px rgba(255,255,255,0.4);
+	margin-top: 5px	;
+	margin-bottom: 10px;
+}
