@@ -56,7 +56,7 @@ function createCard(){
 	//task3: add text from text area to card
 	//text for testing
 	var text = document.createElement('p');
-	text.innerHTML = cardtxt;
+	text.innerHTML = cardtxt.value;
 	card.appendChild(text);
 
 	document.getElementById("cards").appendChild(card);
